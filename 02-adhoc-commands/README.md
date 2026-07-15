@@ -16,12 +16,13 @@ Learn how to execute one-time administrative tasks on remote servers using Ansib
 ansible all -m command -a "hostname"
 ```
 
+
+
 ### Check Uptime
 
 ```bash
 ansible all -m command -a "uptime"
 ```
-
 ### Check Disk Usage
 
 ```bash
@@ -33,6 +34,11 @@ ansible all -m command -a "df -h"
 ```bash
 ansible all -m command -a "free -m"
 ```
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b0d6f052-4c82-405b-b0b3-4ee1a6ec5f7c" />
+
+
+
 
 ### Check OS Information
 
@@ -51,6 +57,9 @@ ansible all -m command -a "uname -r"
 ```bash
 ansible all -m setup
 ```
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/63392abb-65f7-4824-96c6-7f520abbdd17" />
+
 
 ## Key Learnings
 
